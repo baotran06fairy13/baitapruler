@@ -1,14 +1,122 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="./themify-icons/themify-icons.css">
 </head>
+<style>
+    #menu-container {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        font-style: solid;
+    }
+
+    #left {
+        display: flex;
+        width: 350px;
+        justify-content: space-around;
+    }
+
+    #right {
+        display: flex;
+        width: 500px;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    #center {
+        margin-top: 10px;
+    }
+
+    .leftitem {
+        color: #686E77;
+    }
+
+    .rightitem {
+        color: #686E77;
+    }
+
+    .rtb {
+        padding: 8px 10px;
+        border: 2px solid #ebeced;
+        border-radius: 10px;
+
+    }
+
+    .rtb input {
+        border: none #ebeced;
+
+    }
+
+    #img-backgroud {
+        position: relative;
+
+    }
+
+    .content-backgroud {
+        position: absolute;
+        top: 112px;
+        left: 134px;
+        font-size: 20px;
+    }
+
+    #menucenter-container {
+        margin: 63px;
+        border-radius: 20px;
+        
+    }
+    #menucenter-container button{
+         border: none;
+         color: white;
+         background-color: white;
+         font-size: 17px;
+        
+    }
+</style>
+
+
 <body>
-    <div>
+    <div id="menu-container">
+        <div id="left">
+            <div class="leftitem">Shop</div>
+            <div class="leftitem">Offer</div>
+            <div class="leftitem">Story</div>
+            <div class="leftitem">Blog</div>
+        </div>
+        <div id="center">
+            <img src="logo.png" alt="">
+        </div>
+        <div id="right">
+            <div class="rightitem rtb">
+                <i class="ti-search"></i>
+                <input type="text" placeholder="Search product">
+            </div>
+            <div class="rightitem"><i class="ti-shopping-cart"></i> Cart(0)</div>
+            <div class="rightitem">Story</div>
+
+        </div>
+    </div>
+    <div id="img-backgroud">
+        <img src="backgroud.png" alt="">
+        <div class="content-backgroud">
+            <h1>Gift for your skin</h1>
+            <p>Aliquip fugiat ipsum nostrud ex et eu incididunt <br>
+                quis minim dolore excepteur voluptate</p>
+        </div>
+
+        <div id="menucenter-container">
+            <button style="width: 182px; height: 52px; margin-left: 141px;background-color: #459d7a;">All Products</button>
+            <button style="width: 182px; height: 25px; color: #459d7a; border-right: 1px solid #459d7a;">Face</button>
+            <button style="width: 182px; height: 52px; color: #459d7a;">Body</button>
+        </div>
+
         
     </div>
 </body>
+
 </html>

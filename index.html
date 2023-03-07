@@ -68,14 +68,37 @@
     #menucenter-container {
         margin: 63px;
         border-radius: 20px;
-        
+
     }
-    #menucenter-container button{
-         border: none;
-         color: white;
-         background-color: white;
-         font-size: 17px;
-        
+
+    #menucenter-container button {
+        border: none;
+        color: white;
+        background-color: white;
+        font-size: 17px;
+
+    }
+
+    #leftmenu {
+        padding: 10px;
+        border: 1px solid;
+        border-radius: 7px;
+    }
+
+    #leftmenu input {
+        border: none;
+    }
+
+    #sortby {
+        display: flex;
+        margin-left: 50px;
+        align-items: center;
+        padding: 3px 23px;
+        background-color: #f3f4f6;
+        border-radius: 5px;
+        font-size: 20px;
+        color: #7e838e;
+
     }
 </style>
 
@@ -109,13 +132,25 @@
                 quis minim dolore excepteur voluptate</p>
         </div>
 
-        <div id="menucenter-container">
-            <button style="width: 182px; height: 52px; margin-left: 141px;background-color: #459d7a;">All Products</button>
-            <button style="width: 182px; height: 25px; color: #459d7a; border-right: 1px solid #459d7a;">Face</button>
-            <button style="width: 182px; height: 52px; color: #459d7a;">Body</button>
+        <div style="display: flex; align-items: center;">
+
+            <div id="menucenter-container">
+                <button style="width: 182px; height: 52px; margin-left: 141px;background-color: #459d7a;">All
+                    Products</button>
+                <button
+                    style="width: 182px; height: 25px; color: #459d7a; border-right: 1px solid #459d7a;">Face</button>
+                <button style="width: 182px; height: 52px; color: #459d7a;">Body</button>
+            </div>
+            <div id="leftmenu">
+                <i class="ti-search"></i>
+                <input type="text" placeholder="Search product....">
+            </div>
+            <div id="sortby">
+                <span>Sort by</span>
+                <img style="width: 40px;" src="352137_sort_icon.png" alt="">
+            </div>
         </div>
 
-        
     </div>
 </body>
 

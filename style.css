@@ -126,30 +126,66 @@
     color: #aeb1b9;
 }
 #footer{
+    display: flex;
     width: 100%;
     height: 435px;
     color: white;
+    justify-content: space-around;
+    padding-top: 100px;
 }
-#About-content{
-    position: relative;
-    left: 150px;
-    top: 100px;
+#About-content div{
+    padding-bottom: 20px;
 }
-.content-footer{
-    margin-bottom: 23px;
+#About-content select{
+    height: 35px;
+    
 }
-#Help-content{
-    position: relative;
-    left: 350px;
-    top:-115px
+.content-footer div{
+    padding-bottom: 20px;
+}
+#Help-content div{
+    padding-bottom: 20px;
+
 }
 #Contact-content{
-    position: relative;
-    left: 550px;
-    top: -290px;
+    padding-right: 100px;
+}
+#Contact-content div{
+    padding-bottom: 20px;
+    
 }
 #ReceiveNew-content{
-    position: relative;
-    top: -505px;
-    left: 950px;
+    
+}
+#ReceiveNew-content{
+    width: 400px;
+    height: 50px;
+}
+#footer-container{
+    display: flex;
+    width: 100%;
+    background-color: #1d2128;
+}
+
+/* ---------------button */
+.input-subscrie{
+    width: 296px;
+    height: 50px;
+    border: none;
+    outline: none;
+    border-radius: 10px 0px 0px 10px;
+    background-color: #1d2128;
+}
+.input-subscrie1{
+    height: 53px;
+    border: none;
+    background-color: #459d7a;
+    border-radius: 0px 10px 10px 0px;
+}
+#copyright{
+    display: flex;
+    padding-top: 30px;
+}
+#copyright div{
+    padding-left: 10px;
 }

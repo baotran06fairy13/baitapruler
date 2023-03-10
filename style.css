@@ -39,7 +39,7 @@
 
 .rtb input {
     border: none #565656;
-
+    outline: none;
 }
 
 #img-backgroud {
@@ -73,11 +73,13 @@
     border-bottom: 1px solid #6a6a6aad;
     margin-left: 200px;
     margin-left: 350px;
+
 }
 
 #leftmenu input {
     border: none #686E77;
     width: 150px;
+    outline: none;
 }
 
 #sortby {
@@ -175,12 +177,14 @@
     outline: none;
     border-radius: 10px 0px 0px 10px;
     background-color: #1d2128;
+    color: white;
 }
 .input-subscrie1{
     height: 53px;
     border: none;
     background-color: #459d7a;
     border-radius: 0px 10px 10px 0px;
+    color: white;
 }
 #copyright{
     display: flex;

@@ -170,13 +170,18 @@
 }
 
 /* ---------------button */
-.input-subscrie{
-    width: 296px;
-    height: 50px;
-    border: none;
-    outline: none;
-    border-radius: 10px 0px 0px 10px;
+.email-subscrice span{
+    padding: 16px 30px 18px 18px;
+    border: 1px solid #848994;
+    border-right: none;
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+}
+.email-subscrice span input{
+    margin-left: 10px;
     background-color: #1d2128;
+    outline: none;
+    border: none;
     color: white;
 }
 .input-subscrie1{
